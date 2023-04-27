@@ -1,0 +1,140 @@
+/* Estilos CSS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Asegura que la barra de navegación esté en la capa superior */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main {
+  margin-top: 60px; /* Ajusta el margen superior para que el contenido no quede oculto detrás de la barra de navegación */
+}
+
+
+
+
+
+
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centramos los elementos horizontalmente */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar li {
+  margin-right: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #ccc;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#inicio {
+  position: relative;
+  height: 600px;
+  max-width: 100%;
+}
+
+#inicio img {
+  position: absolute;
+  top: -15px; /* cambia el valor según la cantidad de píxeles que quieras mover la imagen hacia arriba */
+  left: 50%; /* centra horizontalmente la imagen */
+  transform: translateX(-50%); /* ajusta la posición horizontal exacta de la imagen */
+  width: 800px; /* establece el ancho de la imagen */
+  height: 500px; /* establece la altura de la imagen */
+  object-fit: cover;
+  filter: blur(2px);
+  z-index: -1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 60px; /* Agregamos un margen superior */
+}
+
+#inicio .container {
+  position: relative;
+  top: -200px;
+  margin-top: 100px; /* Agregamos un margen superior más grande */
+  text-align: center;
+  z-index: 1;
+  transform: translateY(500px); /* Agregamos el desplazamiento horizontal hacia abajo  esto no funciono*/
+}
+#inicio h1 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-fill-color: transparent;
+}
+
+#inicio p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #fff;
+  text-shadow: 
+}
